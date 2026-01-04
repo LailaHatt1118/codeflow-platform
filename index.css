@@ -1,0 +1,78 @@
+@tailwind base; 
+@tailwind components;
+@tailwind utilities;
+/* @import "tailwindcss" ; */
+
+
+
+
+@layer utilities {
+    .animate-in {
+        animation-fill-mode: both;
+    }
+    .slide-in-from-top {
+        animation-name: sliderInFromTop;
+    }
+    .slide-in-from-Bottom {
+        animation-name: sliderInFromBottom;
+    }
+    .duration-200 {
+        animation-duration: 200ms;
+    }
+    .duration-300 {
+        animation-duration: 300ms;
+    }
+    .duration-700 {
+        animation-duration: 700ms;
+    }
+    .delay-100 {
+        animation-delay: 100ms;
+    }
+    .delay-200 {
+        animation-delay: 200ms;
+    }
+    .delay-300 {
+        animation-delay: 300ms;
+    }
+}
+@keyframes sliderInFromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(1rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+
+    }
+}
+@keyframes sliderInFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+
+    }
+}
+
+.lg\:flex-grow {
+    @media (width >= 64rem /*1024px*/) {
+        flex-grow: 1;
+    }
+    /* scroll-margin: 5rem; */
+}
+.group-hover:border-1{
+    border-width: 1px;
+}
+
+
+
+
+
+
+
+/* .bg-gradient-to-r{padding: 1px;} */
+/* .bg-gradient-to-b{padding: 1px;} */
