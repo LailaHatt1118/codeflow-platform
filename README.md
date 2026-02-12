@@ -18,5 +18,30 @@ _Deployment: Netlify
 
 _AI Integration: Advanced AI coding assistanc
 
+📁_Project Structure :
 
+    └── vite-project
+    ├── public
+    │   ├── Images
+    │   │   ├── Logo.png
+    │   │   ├── p1.jpg
+    │   │   ├── p2.jpg
+    │   │   └── p3.jpg
+    │   └── index.html
+    ├── src
+    │   ├── Data
+    │   │   └── CodeExamples.js
+    │   ├── components
+    │   │   ├── Contact.jsx
+    │   │   ├── Features.jsx
+    │   │   ├── Footer.jsx
+    │   │   ├── Hero.jsx
+    │   │   ├── Login.jsx
+    │   │   ├── Navbar.jsx
+    │   │   ├── Pricing.jsx
+    │   │   └── Testimonials.jsx
+    │   ├── App.jsx
+    │   ├── index.css
+    │   └── main.jsx
+    
 Built with ❤️
